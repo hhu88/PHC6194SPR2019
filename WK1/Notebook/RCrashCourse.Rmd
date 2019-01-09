@@ -10,7 +10,7 @@ This is an R crash couse, adpated and revised based on an [online tutorial](http
 Let's firstly setup a working directory
 
 ```{r setup}
-knitr::opts_knit$set(root.dir="/home/spr19/Desktop/PHC7065SPR2019/WK2")
+knitr::opts_knit$set(root.dir="/home/spr19/Desktop/PHC6194SPR2019/WK1")
 ```
 
 We can assign objects using "<-"
@@ -22,7 +22,7 @@ foo
 
 R is case-sensitive
 
-```{r}
+```{r error=TRUE}
 myvar <- 1
 Myvar
 myvar
@@ -30,7 +30,7 @@ myvar
 
 We can add comments by using "#"
 
-```{r}
+```{r error=TRUE}
 #foo2 <- "hello world!"
 foo2
 ```
