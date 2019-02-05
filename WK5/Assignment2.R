@@ -40,7 +40,7 @@
 #Part 4. Data Cleaning and Linkage (30 pts)#
 ############################################
 
-#Q13. Export "geo" to postgresql database "phc6194spr18db" and save it as a table "wk5.geo". DO NOT export row names. Print out the first 6 rows using a SQL query. (5 pts)
+#Q13. Export "geo" to postgresql database "phc6194spr19db" and save it as a table "wk5.geo". DO NOT export row names. Print out the first 6 rows using a SQL query. (5 pts)
 
 #Q14. Merge the table "wk5.dat" and "wk5.geo" using a SQL query, and keep all the columns in "wk5.dat" as well as the columns "lat" (rename it as "lat_ggmap"), "long" (rename it as "lon_ggmap"), and "accuracy" (rename it as "accuracy_ggmap"), and "formatted_address" (rename it as "norm_address_ggmap") in "wk5.geo". Save the merged table as "wk5.dat2", and print out the first 3 rows. (10 pts)
 
