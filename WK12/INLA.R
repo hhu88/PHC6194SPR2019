@@ -30,7 +30,7 @@ temp <- poly2nb(london.gen)
 nb2INLA("LDN.graph", temp)
 LDN.adj <- paste(getwd(),"/LDN.graph",sep="")
 
-#reorder the data to make sure its order is the same to the order of areas in the polygon
+#reorder the data to make sure its order is the same as the order of areas in the polygon
 boroughs<-london.gen
 data.boroughs<-attr(boroughs, "data")
 order <- match(data.boroughs$NAME,data$NAME)
